@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>ECOMMERCE PRIMERA ENTREGA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- !!!!!!!!!!!!!!!!!!HEADER SECTION!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="/index.html" class="navbar__nav-link">
+
+                <!-- !!!!!!!!LOGO!!!!!!!!!! -->
+                <img class="navbar__logo" src="/assets/images/logo-header/Z SPORTS LOGO WHITE SIN FONDO.png"
+                    alt="logo-ecommerce">
+            </a>
+
+            <div class="user-navbar">
+                <div class="user-navbar__cart-icon-container">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="user-navbar__user-avatar-container">
+                    <img src="/assets/images/User-Avatar/AVATAR 3-GRIS.png" class="user-navbar__user-avatar"
+                        alt="Imagen-de-usuario">
+                </div>
+                <!-- TODO: Avatar de la persona logeada o nombre -->
+            </div>
+
+
+            <input type="checkbox" class="navbar__menu-btn " id="menu-btn">
+
+            <label for="menu-btn" class="navbar__menu-label">
+                <span class="navbar__menu-icon"></span>
+            </label>
+
+
+
+            <ul class="navbar__nav-links-container">
+                <li class="navbar__nav-item">
+                    <a href="/index.html" class="navbar__nav-link">Inicio</a>
+
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/contact/contact.html" class="navbar__nav-link">Contacto</a>
+
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/about-us/about-us.html" class="navbar__nav-link">Nosotros</a>
+
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/register/register.html" class="navbar__nav-link">Registrarse</a>
+
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/Marcas/marcas.html" class="navbar__nav-link">Marcas</a>
+
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <!-- TODO:IMPLEMENTAR CARROUSEL EN SEGUNDO MODULO -->
+
+    <main class="main">
+        <!-- !!!!!!!!!!!!!!!!!SECCION DE LAS CARDS!!!!!!!!!!!!!!!!!!!! -->
+
+        <section class="section-cards">
+
+            <!-- !!!!!!!!!!!!!!!!!!!!!!!HEADER DE LAS CARDS!!!!!!!!!!!!!!!!!!!!!! -->
+
+            <header class="section-cards__header">
+
+                <div class="section-cards__products-search-container">
+                    <div class="section-cards__products-search">
+                    <input class="section-cards__products-search-input" type="text" placeholder="Buscar Productos" required>
+                    </div>
+                </div>
+            </header>
+
+            <h1 class="section-cards__category">CATEGORIA: INDUMENTARIA FUTBOL HOMBRE</h1>
+            
+
+            <div class="cards-container">
+                <!--!!!!!!!!!!! CARD 1!!!!!!!!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Camiseta River-Titular 21-22.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            CAMISETA TIT. RIVER PLATE 22/23
+
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ 13000
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!!!!CARD 2!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Camiseta-Alternativa-Barcelona hombre-2023.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            CAMISETA ALT. BARÇA 22/23
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!CARD 3!!!!!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Camiseta-Arsenal-Hombre-Titular-2022.png" alt="Camiseta Arsenal" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            CAMISETA TIT. ARSENAL 22/23
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!!!CARD 4!!!!!!!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Camiseta-Bayer-Titular-2023.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            CAMISETA TIT. BAYERN 22/23
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!!!!CARD 5!!!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Camiseta-Boca-Hombre-Alternativa-22.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            CAMISETA ALT. BOCA 22/23
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!!!CARD 6!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Camiseta-PSG-Titular-2023.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            CAMISETA TIT. PSG 22/23
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!!!CARD 7!!!!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/camiseta-futbol-canada.webp" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            CAMISETA TIT. CANADA 22/23
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!!CARD 8!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/camiseta-atletico-madrid.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            CAMISETA TIT. ATL. MADRID 22/23
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!!!!!CARD 9!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/botin-adidas-blanco-640.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            BOTINES PREDATOR X FUTBOL 
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto 
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!CARD 10!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Botin-Nike-Phantom Elite-Hombre.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            BOTINES PHANTOM GX FUTBOL
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!--!!!!!!!!!!!!!!!! CARD 11 !!!!!!!!!!!!!!!-->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Pelota-Mundial Qatar-2022.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            BALON MUNDIAL QATAR 2022
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- !!!!!!!!!!!!!!!! CARD 12 !!!!!!!!!!!!!!!! -->
+                <article class="card">
+                    <div class="card__header">
+                        <img src="/assets/images/Productos/Pelota-Qatar-2022.png" alt="Product Image" class="card__img">
+                    </div>
+                    <div class="card__body">
+                        <div class="card__tittle">
+                            BALON ARGENTUM TORNEO 2023
+                        </div>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto repellendus
+                        </p>
+                        <div class="card__price">
+                            $ XXXXX
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <div class="card__date">
+                            13/12/2022
+                        </div>
+                        <div class="card__btn-container">
+                            <a class="card__btn" href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+
+    
+    <div class="whatsapp-container">
+        <a href="" class="whatsapp-container__link">
+            <img src="#" alt="WhatsApp-contact-link" class="whatsapp-container__img">
+        </a>
+    </div>
+    <!-- !!!!!!!!!!!!!!!!!!!FOOTER PRINCIPAL DE LA PAGINA!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <footer class="footer">
+        <div class="footer__column">
+            <!-- !!!!!!!!!!!!!!!!!LISTA DE REDES!!!!!!!!!!!!!!!!!!!! -->
+            <ul class="footer__contact-container">
+
+                <li class="footer__contact-item">
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-brands fa-instagram footer__contact-icon
+            footer__contact-icon--instagram"></i>
+                        Instagram</a>
+                </li>
+
+                <li class="footer__contact-item">
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-brands fa-facebook footer__contact-icon
+            footer__contact-icon--facebook"></i>
+                        Facebook</a>
+                </li>
+
+                <li class="footer__contact-item ">
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-brands fa-linkedin footer__contact-icon
+            footer__contact-icon--linkedin"></i>
+                        LinkedIN</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <!-- !!!!!!!!!!!!!!!!!LOGO FOOTER!!!!!!!!!!!!!!!!! -->
+            <img src="/assets/images/logo-header/LOGO Z SPORTS BLACK SIN FONDO.png" alt="Company-logo"
+                class="footer__logo">
+            <p class="footer__copyright">Todos los derechos reservados a Z Sports</p>
+            
+        </div>
+        <div class="footer__column">
+            <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!LISTA DE CONTACTO!!!!!!!!!!!!!!!!!!!!!!!!! -->
+            <ul class="footer__contact-container">
+
+                <li class="footer__contact-item">
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-solid fa-location-dot footer__contact-icon
+                footer__contact-icon--location-dot"></i>
+                        Ubicacion</a>
+                </li>
+
+                <li class="footer__contact-item">
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-solid fa-phone footer__contact-icon
+                        footer__contact-icon--phone"></i>
+                        Telefono</a>
+                </li>
+
+                <li class="footer__contact-item">
+                    <a href="#" class="footer__contact-link">
+                        <i class="fa-solid fa-envelope footer__contact-icon
+                        footer___contact-icon--envelope"></i>
+                        E-mail</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

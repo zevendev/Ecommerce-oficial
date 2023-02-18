@@ -1,0 +1,53 @@
+.section-cards{
+  &__header {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  &__products-search-container {
+    padding: 2rem;
+    background-color: white;
+  }
+  &__products-search-input {
+    width: 340px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 0 20px;
+    text-align: center;
+    box-shadow: 6px 6px 5px black;
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+  }
+  &::-moz-placeholder {
+    color: black;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 1.2rem;
+  }
+   &::placeholder {
+    color: black;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 1.2rem;
+  }
+  &__category {
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+}
+
+@media screen and (min-width: 1000px) {
+  .section-cards_header {
+    display: flex;
+  }
+}
