@@ -3,14 +3,14 @@
 @import "base/reset";
 
 @import "base/typography";
-
+// !!COMPONENTS!!
 @import "components/card";
 @import "components/icons";
-
+// !LAYOUT!
 @import "layout/header";
 @import "layout/footer";
 @import "layout/main";
-
+// !!PAGES!!
 @import "pages/home";
 @import "pages/marcas";
 @import "pages/contact";

@@ -20,24 +20,20 @@
     box-shadow: 6px 6px 5px black;
     transition: all 0.5s ease-in-out;
     background-color: white;
+    &::placeholder{
+      font-size: 1.3rem;
+      color: black;
+      text-transform: uppercase;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    }
   }
-  &::-moz-placeholder {
-    color: black;
-    text-transform: uppercase;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 1.2rem;
-  }
-   &::placeholder {
-    color: black;
-    text-transform: uppercase;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 1.2rem;
-  }
+  
   &__category {
     text-align: center;
     padding-top: 30px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     text-transform: uppercase;
+    border-bottom: 3px solid orangered
   }
   .cards-container {
     display: grid;
