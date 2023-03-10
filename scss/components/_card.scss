@@ -26,6 +26,9 @@
     &__body {
         padding: 1rem;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
     }
     &__tittle {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -33,10 +36,13 @@
         font-size: 1rem;
         border-bottom: 3px solid orangered;
         padding-bottom: 10px;
+        display: flex;
+
       }
     &__description {
         padding: 1.5rem 0 2rem;
         font-size: 20px;
+        flex-grow: 1;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
     &__price {

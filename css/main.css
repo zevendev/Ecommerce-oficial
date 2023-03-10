@@ -54,6 +54,9 @@ html {
 .card__body {
   padding: 1rem;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 .card__tittle {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -61,10 +64,12 @@ html {
   font-size: 1rem;
   border-bottom: 3px solid orangered;
   padding-bottom: 10px;
+  display: flex;
 }
 .card__description {
   padding: 1.5rem 0 2rem;
   font-size: 20px;
+  flex-grow: 1;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .card__price {
@@ -380,6 +385,8 @@ html {
 }
 .body__marcas {
   background-color: white;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 .card__title {
@@ -404,6 +411,7 @@ html {
   text-transform: uppercase;
   background-color: black;
   padding-bottom: 15px;
+  flex-grow: 1;
   font-size: 1.7rem;
   color: white;
 }

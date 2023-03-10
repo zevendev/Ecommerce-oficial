@@ -2,6 +2,8 @@
 
 .body__marcas{
 background-color:white;
+flex-grow: 1;
+flex-direction: column;
 }
 
 .card__title{
@@ -25,6 +27,7 @@ color: white;
     text-transform: uppercase;
     background-color: black;
     padding-bottom: 15px;
+    flex-grow: 1;
     font-size: 1.7rem;
     color: white;
 }
